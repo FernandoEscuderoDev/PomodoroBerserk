@@ -20,12 +20,11 @@ export default function Home() {
       }}
     >
       <ChakraBox
-        whileTap={{ opacity: 0 }}
-        transition={{ duration: 0.5, ease: "easeInOut" }}
+        initial={{opacity:0}}
+        animate={{ opacity: [0.5, 1], scale: [0.8, 0.9, 1] }}
+        transition={{ duration: 0.5, ease: "linear" }}
       >
-        <MarcaImg
-          href={"/pomodoro"}
-        />
+        <MarcaImg href={"/pomodoro"} />
       </ChakraBox>
     </ChakraBox>
   );
