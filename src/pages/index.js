@@ -1,6 +1,6 @@
 import { chakra, shouldForwardProp } from "@chakra-ui/react";
 import { motion, isValidMotionProp } from "framer-motion";
-import MarcaImg from "./components/MarcaImg";
+import MarcaImg from "../components/MarcaImg";
 
 export default function Home() {
   const ChakraBox = chakra(motion.div, {

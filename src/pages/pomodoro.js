@@ -1,9 +1,9 @@
 import { chakra, shouldForwardProp } from "@chakra-ui/react";
 import { motion, isValidMotionProp } from "framer-motion";
 import { useState } from "react";
-import Pomodoro from "@/pages/components/Pomodoro.jsx";
-import Settings from "@/pages/components/Settings.jsx";
-import { SettingsContext } from "./components/SettingsContext.js";
+import Pomodoro from "@/components/Pomodoro.jsx";
+import Settings from "@/components/Settings.jsx";
+import { SettingsContext } from "../components/SettingsContext.js";
 export default function PomodoroPage() {
   const ChakraBox = chakra(motion.div, {
     shouldForwardProp: (prop) =>

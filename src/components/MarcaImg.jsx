@@ -1,7 +1,7 @@
 import { Box } from "@chakra-ui/react";
 import Image from "next/image";
 import Link from "next/link";
-import profilePic from "../../assets/marca.jpg";
+import profilePic from "../assets/marca.jpg";
 
 export default function MarcaImg({href}) {
 

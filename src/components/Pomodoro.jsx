@@ -7,8 +7,8 @@ import {
   chakra,
   IconButton,
 } from "@chakra-ui/react";
-import profilePic from "../../assets/pomodoro3.jpg";
-import profilePic2 from "../../assets/pomodoro2.jpg";
+import profilePic from "../assets/pomodoro3.jpg";
+import profilePic2 from "../assets/pomodoro2.jpg";
 import ButtonPlay from "./ButtonPlay";
 import ButtonPause from "./ButtonPause";
 import ButtonSettings from "./ButtonSettings";
